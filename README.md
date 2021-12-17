@@ -20,9 +20,8 @@ Project 3: mongoose 6.1.12, @nestjs/mongoose 9.0.1, @nestjs/config **NOT USED**
 ## Recreate the issue:
 
 01. cd .\mongoose-not-working-6.1.12\
-02. npm cache clear --force
-03. npm i
-04. npm run test:e2e
+02. npm i
+03. npm run test:e2e
 
 ==> Warning: <span style="color:yellow">**Jest did not exit one second after the test run has  completed.** </span>
 
@@ -30,16 +29,14 @@ Project 3: mongoose 6.1.12, @nestjs/mongoose 9.0.1, @nestjs/config **NOT USED**
 
 04. cd ..
 05. cd .\mongoose-working-5.13.12\
-06. npm cache clear --force
-07. npm i
-08. npm run test:e2e
+06. npm i
+07. npm run test:e2e
 
 ==> <span style="color:green">Works</span>
 
-09. cd ..
-10. cd .\mongoose-working-6.1.12-no-config\
-11. npm cache clear --force
-12. npm i
-13. npm run test:e2e
+08. cd ..
+09. cd .\mongoose-working-6.1.12-no-config\
+10. npm i
+11. npm run test:e2e
 
 ==> <span style="color:green">Works</span>
