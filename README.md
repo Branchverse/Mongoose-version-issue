@@ -16,6 +16,10 @@ Project 2: mongoose 5.13.13, @nestjs/mongoose 8.0.1, @nestjs/config 1.1.5
 
 Project 3: mongoose 6.1.12, @nestjs/mongoose 9.0.1, @nestjs/config **NOT USED**
 
+P1 to P2 changes dependencies, 
+P1 to P3 removes the usage of ConfigService in app.modules,
+all other code is exactly the same
+
 ---
 ## Recreate the issue:
 
