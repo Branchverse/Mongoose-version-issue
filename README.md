@@ -22,21 +22,22 @@ Project 3: mongoose 6.1.12, @nestjs/mongoose 9.0.1, @nestjs/config **NOT USED**
 01. cd .\mongoose-not-working-6.1.12\
 02. npm i
 03. npm run test:e2e
-
+```
 ==> Warning: <span style="color:yellow">**Jest did not exit one second after the test run has  completed.** </span>
 
 ==> You need to stop the test manually with Strg+C or equivalent
-
+```
 04. cd ..
 05. cd .\mongoose-working-5.13.12\
 06. npm i
 07. npm run test:e2e
-
+```
 ==> <span style="color:green">Works</span>
-
+```
 08. cd ..
 09. cd .\mongoose-working-6.1.12-no-config\
 10. npm i
 11. npm run test:e2e
-
+```
 ==> <span style="color:green">Works</span>
+```
