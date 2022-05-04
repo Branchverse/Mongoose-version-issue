@@ -1,4 +1,4 @@
-s## I came across an issue with @nestjs/config when:
+## I came across an issue with @nestjs/config when:
 Upgrading mongoose from ^5.13.13 to ^6.0.12 
 
 Upgrading @nestjs/mongoose from ^8.0.1 to ^9.0.1
